@@ -9,7 +9,7 @@
     let lmf = new LMF({ database: LMFen.db })
     await lmf.open()
     let results = await lmf.query(
-        "SELECT * FROM Lemma WHERE writtenForm LIKE '%nerd%';",
+        "SELECT * FROM Lemma WHERE writtenForm LIKE '%housekeep%';",
         { format: "table" }
     )
     console.log(results)

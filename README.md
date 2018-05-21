@@ -42,7 +42,7 @@ Usage
     let lmf = new LMF({ database: LMFen.db })
     await lmf.open()
     let results = await lmf.query(
-        "SELECT * FROM Lemma WHERE writtenForm LIKE '%nerd%';",
+        "SELECT * FROM Lemma WHERE writtenForm LIKE '%hauskeep%';",
         { format: "table" }
     )
     console.log(results)
@@ -54,6 +54,14 @@ Usage
 ```
 
 ```
+OMW Princeton WordNet 3.1 (2011-05-26) [MIT-style]
+┌────────────────┬──────────────┬──────────────┐
+│ lexicalEntryId │ writtenForm  │ partOfSpeech │
+├────────────────┼──────────────┼──────────────┤
+│ w41812         │ housekeeping │ n            │
+│ w37414         │ housekeep    │ v            │
+│ w113151        │ housekeeper  │ n            │
+└────────────────┴──────────────┴──────────────┘
 ```
 
 License
