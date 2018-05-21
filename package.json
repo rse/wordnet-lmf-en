@@ -1,0 +1,45 @@
+{
+    "name":        "wordnet-lmf-en",
+    "version":     "0.9.0",
+    "description": "WordNet Lexical Markup Framework (LMF): English (EN)",
+    "keywords":    [ "wordnet", "lmf", "de", "german" ],
+    "main":        "wordnet-lmf-en.js",
+    "repository": {
+        "type": "git",
+        "url":  "https://github.com/rse/wordnet-lmf-en.git"
+    },
+    "author": {
+        "name":  "Ralf S. Engelschall",
+        "email": "rse@engelschall.com",
+        "url":   "http://engelschall.com"
+    },
+    "license":  "SEE LICENSE UNDER http://compling.hss.ntu.edu.sg/omw/wns/eng/LICENSE",
+    "homepage": "https://github.com/rse/wordnet-lmf-en",
+    "bugs":     "https://github.com/rse/wordnet-lmf-en/issues",
+    "devDependencies": {
+    },
+    "dependencies": {
+        "npm-run-all":             "4.1.3",
+        "npm-install-fetch":       "0.9.3",
+        "wordnet-lmf":             "0.9.2"
+    },
+    "peerDependencies": {
+        "wordnet-lmf":             "0.9.2"
+    },
+    "engines": {
+        "node":                    ">=8.0.0"
+    },
+    "scripts": {
+        "install":  "npm-run-all -s fetch import",
+        "fetch":    "npm-install-fetch",
+        "import":   "wordnet-lmf -d wordnet-lmf-en.db import -p easysax wordnet-lmf-en.xml"
+    },
+    "npm-install-fetch": [ {
+        "name":     "OMW Princeton WordNet 3.1 (2011-05-26) [40 MB, MIT-style]",
+        "input":    "http://compling.hss.ntu.edu.sg/omw/wns/eng+xml.zip",
+        "extract":  true,
+        "filter":   "eng/wn-eng-lmf.xml",
+        "filter":   [ "eng/wn-eng-lmf.xml", "wordnet-lmf-en.xml" ],
+        "output":   "."
+    } ]
+}
