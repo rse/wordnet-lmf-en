@@ -32,7 +32,7 @@
     "scripts": {
         "install":  "npm-run-all -s fetch import",
         "fetch":    "npm-install-fetch",
-        "import":   "wordnet-lmf -d wordnet-lmf-en.db import -p easysax wordnet-lmf-en.xml"
+        "import":   "wordnet-lmf -d wordnet-lmf-en.db import -p easysax -e 2 wordnet-lmf-en.xml"
     },
     "npm-install-fetch": [ {
         "name":     "OMW Princeton WordNet 3.1 (2011-05-26) [MIT-style]",
