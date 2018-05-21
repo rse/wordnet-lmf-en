@@ -35,7 +35,7 @@
         "import":   "wordnet-lmf -d wordnet-lmf-en.db import -p easysax -e 2 wordnet-lmf-en.xml"
     },
     "npm-install-fetch": [ {
-        "name":     "OMW Princeton WordNet 3.1 (2011-05-26) [MIT-style]",
+        "name":     "OMW Princeton WordNet 3.1 (2011-05-26) [156K words, MIT-style]",
         "input":    "http://compling.hss.ntu.edu.sg/omw/wns/eng+xml.zip",
         "extract":  true,
         "filter":   "eng/wn-eng-lmf.xml",

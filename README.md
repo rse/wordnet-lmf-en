@@ -14,8 +14,8 @@ About
 -----
 
 This is a [Node.js](https://nodejs.org/) module shipping the
-[MIT-style](http://compling.hss.ntu.edu.sg/omw/wns/eng/LICENSE) licensed
-on-the-fly downloaded [WordNet LMF (XML)](https://github.com/globalwordnet/schemas)
+[MIT-style](http://compling.hss.ntu.edu.sg/omw/wns/eng/LICENSE) licensed,
+156K words containing, on-the-fly downloaded [WordNet LMF (XML)](https://github.com/globalwordnet/schemas)
 data file of [Princeton WordNet 3.1 (PWN)](https://wordnet.princeton.edu/)
 from [Open Multilingual Wordnet](http://compling.hss.ntu.edu.sg/omw/),
 plus the corresponding SQLite database file, on-the-fly generated with the
