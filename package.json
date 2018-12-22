@@ -1,6 +1,6 @@
 {
     "name":        "wordnet-lmf-en",
-    "version":     "0.9.4",
+    "version":     "0.9.5",
     "description": "WordNet Lexical Markup Framework (LMF): English (EN)",
     "keywords":    [ "wordnet", "lmf", "de", "german" ],
     "main":        "wordnet-lmf-en.js",
