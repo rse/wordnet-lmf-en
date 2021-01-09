@@ -14,9 +14,10 @@ About
 -----
 
 This is a [Node.js](https://nodejs.org/) module shipping the
-[MIT-style](http://compling.hss.ntu.edu.sg/omw/wns/eng/LICENSE) licensed,
-156K words containing, on-the-fly downloaded [WordNet LMF (XML)](https://github.com/globalwordnet/schemas)
-data file of [Princeton WordNet 3.1 (PWN)](https://wordnet.princeton.edu/)
+[CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html) licensed,
+163K words containing, on-the-fly downloaded [WordNet LMF (XML)](https://github.com/globalwordnet/schemas)
+data file of [English WordNet 2020(https://en-word.net/)], which is based on
+[Princeton WordNet 3.1 (PWN)](https://wordnet.princeton.edu/)
 from [Open Multilingual Wordnet (OMW)](http://compling.hss.ntu.edu.sg/omw/),
 plus the corresponding SQLite database file, on-the-fly generated with the
 [wordnet-lmf](https://npmjs.com/wordnet-lmf) module.
@@ -54,14 +55,17 @@ Usage
 ```
 
 ```
-OMW Princeton WordNet 3.1 (2011-05-26) [MIT-style]
-┌────────────────┬──────────────┬──────────────┐
-│ lexicalEntryId │ writtenForm  │ partOfSpeech │
-├────────────────┼──────────────┼──────────────┤
-│ w41812         │ housekeeping │ n            │
-│ w37414         │ housekeep    │ v            │
-│ w113151        │ housekeeper  │ n            │
-└────────────────┴──────────────┴──────────────┘
+English WordNet 2020 (2020-04-17) [163K words, CC-BY-4.0]
+┌────────────────────┬──────────────┬──────────────┐
+│ lexicalEntryId     │ writtenForm  │ partOfSpeech │
+├────────────────────┼──────────────┼──────────────┤
+│ ewn-housekeep-v    │ housekeep    │ v            │
+│ ewn-housekeeper-n  │ housekeeper  │ n            │
+│ ewn-housekeeping-n │ housekeeping │ n            │
+│ ewn-housekeep-v    │ housekeep    │ v            │
+│ ewn-housekeeper-n  │ housekeeper  │ n            │
+│ ewn-housekeeping-n │ housekeeping │ n            │
+└────────────────────┴──────────────┴──────────────┘
 ```
 
 License
