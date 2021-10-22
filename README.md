@@ -16,7 +16,7 @@ About
 This is a [Node.js](https://nodejs.org/) module shipping the
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html) licensed,
 163K words containing, on-the-fly downloaded [WordNet LMF (XML)](https://github.com/globalwordnet/schemas)
-data file of [English WordNet 2020(https://en-word.net/)], which is based on
+data file of [English WordNet 2021(https://en-word.net/)], which is based on
 [Princeton WordNet 3.1 (PWN)](https://wordnet.princeton.edu/)
 from [Open Multilingual Wordnet (OMW)](http://compling.hss.ntu.edu.sg/omw/),
 plus the corresponding SQLite database file, on-the-fly generated with the
@@ -55,7 +55,7 @@ Usage
 ```
 
 ```
-English WordNet 2020 (2020-04-17) [163K words, CC-BY-4.0]
+English WordNet 2021 (2021-10-21) [163K words, CC-BY-4.0]
 ┌────────────────────┬──────────────┬──────────────┐
 │ lexicalEntryId     │ writtenForm  │ partOfSpeech │
 ├────────────────────┼──────────────┼──────────────┤
