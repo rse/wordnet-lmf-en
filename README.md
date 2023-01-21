@@ -15,8 +15,8 @@ About
 
 This is a [Node.js](https://nodejs.org/) module shipping the
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html) licensed,
-163K words containing, on-the-fly downloaded [WordNet LMF (XML)](https://github.com/globalwordnet/schemas)
-data file of [English WordNet 2021(https://en-word.net/)], which is based on
+194K words containing, on-the-fly downloaded [WordNet LMF (XML)](https://github.com/globalwordnet/schemas)
+data file of [English WordNet 2022](https://en-word.net/), which is based on
 [Princeton WordNet 3.1 (PWN)](https://wordnet.princeton.edu/)
 from [Open Multilingual Wordnet (OMW)](http://compling.hss.ntu.edu.sg/omw/),
 plus the corresponding SQLite database file, on-the-fly generated with the
@@ -55,23 +55,44 @@ Usage
 ```
 
 ```
-English WordNet 2021 (2021-10-21) [163K words, CC-BY-4.0]
-┌────────────────────┬──────────────┬──────────────┐
-│ lexicalEntryId     │ writtenForm  │ partOfSpeech │
-├────────────────────┼──────────────┼──────────────┤
-│ ewn-housekeep-v    │ housekeep    │ v            │
-│ ewn-housekeeper-n  │ housekeeper  │ n            │
-│ ewn-housekeeping-n │ housekeeping │ n            │
-│ ewn-housekeep-v    │ housekeep    │ v            │
-│ ewn-housekeeper-n  │ housekeeper  │ n            │
-│ ewn-housekeeping-n │ housekeeping │ n            │
-└────────────────────┴──────────────┴──────────────┘
+English WordNet 2022 (2022-12-30) [194K words, CC-BY-4.0]
+┌─────────────────────┬──────────────┬──────────────┐
+│ lexicalEntryId      │ writtenForm  │ partOfSpeech │
+├─────────────────────┼──────────────┼──────────────┤
+│ ewn-housekeep-v     │ housekeep    │ v            │
+│ ewn-housekeeper-n   │ housekeeper  │ n            │
+│ ewn-housekeeping-n  │ housekeeping │ n            │
+│ ewn-housekeep-v     │ housekeep    │ v            │
+│ ewn-housekeeper-n   │ housekeeper  │ n            │
+│ ewn-housekeeping-n  │ housekeeping │ n            │
+│ ewn-housekeep-v     │ housekeep    │ v            │
+│ ewn-housekeeper-n   │ housekeeper  │ n            │
+│ ewn-housekeeping-n  │ housekeeping │ n            │
+│ oewn-housekeeping-n │ housekeeping │ n            │
+│ oewn-housekeep-v    │ housekeep    │ v            │
+│ oewn-housekeeper-n  │ housekeeper  │ n            │
+│ oewn-housekeeping-n │ housekeeping │ n            │
+│ oewn-housekeep-v    │ housekeep    │ v            │
+│ oewn-housekeeper-n  │ housekeeper  │ n            │
+│ oewn-housekeeping-n │ housekeeping │ n            │
+│ oewn-housekeep-v    │ housekeep    │ v            │
+│ oewn-housekeeper-n  │ housekeeper  │ n            │
+│ oewn-housekeeping-n │ housekeeping │ n            │
+│ oewn-housekeeper-n  │ housekeeper  │ n            │
+│ oewn-housekeep-v    │ housekeep    │ v            │
+│ oewn-housekeeping-n │ housekeeping │ n            │
+│ oewn-housekeeper-n  │ housekeeper  │ n            │
+│ oewn-housekeep-v    │ housekeep    │ v            │
+│ oewn-housekeeping-n │ housekeeping │ n            │
+│ oewn-housekeeper-n  │ housekeeper  │ n            │
+│ oewn-housekeep-v    │ housekeep    │ v            │
+└─────────────────────┴──────────────┴──────────────┘
 ```
 
 License
 -------
 
-Copyright (c) 2018-2021 Dr. Ralf S. Engelschall (http://engelschall.com/)
+Copyright (c) 2018-2023 Dr. Ralf S. Engelschall (http://engelschall.com/)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
