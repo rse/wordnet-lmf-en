@@ -4,6 +4,7 @@
     "description":                 "WordNet Lexical Markup Framework (LMF): English (EN)",
     "keywords":                    [ "wordnet", "lmf", "de", "german" ],
     "main":                        "wordnet-lmf-en.js",
+    "types":                       "wordnet-lmf-en.d.ts",
     "repository":                  { "type": "git", "url": "git+https://github.com/rse/wordnet-lmf-en.git" },
     "author": {
         "name":                    "Dr. Ralf S. Engelschall",
